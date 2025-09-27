@@ -1,0 +1,50 @@
+/* main section */
+.hero {
+    padding-bottom: 66px;
+}
+
+.hero-list {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 130px;
+    -moz-column-gap: 65px;
+    column-gap: 65px;
+    padding-bottom: 90px;
+}
+
+.hero-item {
+    width: 420px;
+}
+
+.fotoblog-subtitle {
+    font-weight: 300;
+    color: var(--text-color);
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-family: var(--second-font);
+}
+
+.fotoblog-title {
+    font-size: 30px;
+    color: var(--title-color);
+    font-family: var(--font-family);
+    margin-bottom: 40px;
+    font-weight: 400;
+}
+
+.fotoblog-desc {
+    color: var(--title-color);
+}
+
+.hero-btn {
+    color: var(--title-color);
+    padding: 20px 48px;
+    background-color: var(--background);
+    border: 1px solid var(--title-color);
+    display: block;
+    margin: auto;
+    margin-bottom: 66px;
+    font-family: var(--main-font);
+}
